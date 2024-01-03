@@ -15,7 +15,12 @@ public class DemoApplication {
 	
 	@GetMapping("/1111")
 	public String get() {
-		return "hello";
+		return "hello everybody";
+	}
+	
+	@GetMapping("/2")
+	public String get2() {
+		return "hello 2222222222222";
 	}
 
 }
